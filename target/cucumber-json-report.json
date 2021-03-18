@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-14T05:45:53.664Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4484000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.March2021.BaseClass.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Aldi homepage reduced products",
+        "description": "",
+        "id": "aldi-home-page-functionality;aldi-homepage-reduced-products",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.March2021.BaseClass.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is on aldi webside home page",
+            "match": {
+              "location": "com.March2021.StepDefinatation.IndividualProductSteps.user_is_on_aldi_webside_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Mayurkumars-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:14bd:6281:1dc8:e889%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\n\tat org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)\n\tat java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\n\tat org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)\n\tat com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)\n\tat org.openqa.selenium.json.Json.toJson(Json.java:42)\n\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)\n\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\n\tat com.March2021.PageObject.ReducedProduct.reduced(ReducedProduct.java:19)\n\tat com.March2021.StepDefinatation.ReducedProductSteps.user_mouse_hover_over_to_reduced_element_new_window_open(ReducedProductSteps.java:13)\n\tat ✽.user mouse hover over to reduced element new window open(file:///Users/mayurkumarpatel/DailyPracticeMarch2021/src/test/Resources/HomePage.feature:24)\n\tSuppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Mayurkumars-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:14bd:6281:1dc8:e889%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: RemoteWebDriver\n\t\tat org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)\n\t\tat org.openqa.selenium.json.Json.toJson(Json.java:44)\n\t\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)\n\t\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)\n\t\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)\n\t\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\t\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\t\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\n\t\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\n\t\tat com.March2021.PageObject.ReducedProduct.reduced(ReducedProduct.java:19)\n\t\tat com.March2021.StepDefinatation.ReducedProductSteps.user_mouse_hover_over_to_reduced_element_new_window_open(ReducedProductSteps.java:13)\n\t\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\t\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\t\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\t\tat java.lang.reflect.Method.invoke(Method.java:498)\n\t\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\t\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\t\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\t\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\t\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\t\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\t\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\t\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\t\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\t\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\t\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\t\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\t\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\t\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\t\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\t\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\t\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\t\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\t\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\t\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\t\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\t\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\t\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\n\t\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\t\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\t\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\t\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\t\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\t\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\t\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\n\t\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\t\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\t\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\t\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\t\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\t\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\n\t\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\nCaused by: java.lang.reflect.InvocationTargetException\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\n\tat org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)\n\tat java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\n\tat org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)\n\tat com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)\n\tat org.openqa.selenium.json.Json.toJson(Json.java:42)\n\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)\n\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\n\tat com.March2021.PageObject.ReducedProduct.reduced(ReducedProduct.java:19)\n\tat com.March2021.StepDefinatation.ReducedProductSteps.user_mouse_hover_over_to_reduced_element_new_window_open(ReducedProductSteps.java:13)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Below £20\"}\n  (Session info: chrome\u003d89.0.4389.82)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Mayurkumars-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:14bd:6281:1dc8:e889%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/pq/rn2np1wx2kg...}, goog:chromeOptions: {debuggerAddress: localhost:51917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 746f98a0836b46b2ca17fb5c9653d236\n*** Element info: {Using\u003dlink text, value\u003dBelow £20}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy17.getWrappedElement(Unknown Source)\n\tat org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)\n\tat org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)\n\tat org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)\n\tat org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)\n\t... 67 more\n",
+              "duration": 3234000000,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "user mouse hover over to reduced element new window open",
+            "match": {
+              "location": "com.March2021.StepDefinatation.ReducedProductSteps.user_mouse_hover_over_to_reduced_element_new_window_open()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user do click on the below ten pound product",
+            "match": {
+              "location": "com.March2021.StepDefinatation.ReducedProductSteps.user_do_click_on_the_below_ten_pound_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user should able to see all below ten pound list of products",
+            "match": {
+              "location": "com.March2021.StepDefinatation.ReducedProductSteps.user_should_able_to_see_all_below_ten_pound_list_of_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@actions"
+          }
+        ]
+      }
+    ],
+    "name": "Aldi home page functionality",
+    "description": "",
+    "id": "aldi-home-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/Resources/HomePage.feature",
+    "tags": []
+  }
+]

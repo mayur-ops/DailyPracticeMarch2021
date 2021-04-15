@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.038">
-<testcase classname="result page functionality" name="ice-cream product result page functionality" time="5.885">
-<system-out><![CDATA[Given user is on aldi webside home page.....................................passed
-Given user search for the ice-cream products................................passed
-When user click on the search button........................................passed
-Then user should able to see all ice-cream products.........................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.797">
+<testcase classname="argos home page functionality" name="argos home page functionality" time="5.642">
+<system-out><![CDATA[Given user is on argos home page............................................passed
+When user hover the mouse on shop option and auto option display............passed
+Then user click to the Toys option..........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

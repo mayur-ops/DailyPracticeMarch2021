@@ -1,7 +1,6 @@
 
-@result
-Scenario: ice-cream product result page functionality [90m# src/test/Resources/ResultPage.feature:7[0m
-  [32mGiven [0m[32muser is on aldi webside home page[0m             [90m# com.March2021.StepDefinatation.IndividualProductSteps.user_is_on_aldi_webside_home_page()[0m
-  [32mGiven [0m[32muser search for the ice-cream products[0m        [90m# com.March2021.StepDefinatation.ResultPageStepDefinatation.IceCcreamProductSteps.user_search_for_the_ice_cream_products()[0m
-  [32mWhen [0m[32muser click on the search button[0m                [90m# com.March2021.StepDefinatation.ResultPageStepDefinatation.IceCcreamProductSteps.user_click_on_the_search_button()[0m
-  [32mThen [0m[32muser should able to see all ice-cream products[0m [90m# com.March2021.StepDefinatation.ResultPageStepDefinatation.IceCcreamProductSteps.user_should_able_to_see_all_ice_cream_products()[0m
+@argosShop
+Scenario: argos home page functionality                            [90m# src/test/Resources/ArgosHomePage.feature:4[0m
+  [32mGiven [0m[32muser is on argos home page[0m                                 [90m# com.March2021.StepDefinatation.ArgosShopButtonSteps.user_is_on_argos_home_page()[0m
+  [32mWhen [0m[32muser hover the mouse on shop option and auto option display[0m [90m# com.March2021.StepDefinatation.ArgosShopButtonSteps.user_hover_the_mouse_on_shop_option_and_auto_option_display()[0m
+  [32mThen [0m[32muser click to the Toys option[0m                               [90m# com.March2021.StepDefinatation.ArgosShopButtonSteps.user_click_to_the_toys_option()[0m

@@ -3,32 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 33000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on aldi webside home page",
-            "match": {
-              "location": "com.March2021.StepDefinatation.IndividualProductSteps.user_is_on_aldi_webside_home_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-03-31T03:30:23.703Z",
+        "start_timestamp": "2021-04-15T00:09:29.388Z",
         "before": [
           {
             "result": {
-              "duration": 4262000000,
+              "duration": 3284000000,
               "status": "passed"
             },
             "match": {
@@ -36,14 +15,14 @@
             }
           }
         ],
-        "line": 7,
-        "name": "ice-cream product result page functionality",
+        "line": 4,
+        "name": "argos home page functionality",
         "description": "",
-        "id": "result-page-functionality;ice-cream-product-result-page-functionality",
+        "id": "argos-home-page-functionality;argos-home-page-functionality",
         "after": [
           {
             "result": {
-              "duration": 106000000,
+              "duration": 134000000,
               "status": "passed"
             },
             "match": {
@@ -56,53 +35,53 @@
         "steps": [
           {
             "result": {
-              "duration": 149000000,
+              "duration": 26000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "user search for the ice-cream products",
+            "line": 6,
+            "name": "user is on argos home page",
             "match": {
-              "location": "com.March2021.StepDefinatation.ResultPageStepDefinatation.IceCcreamProductSteps.user_search_for_the_ice_cream_products()"
+              "location": "com.March2021.StepDefinatation.ArgosShopButtonSteps.user_is_on_argos_home_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 996000000,
+              "duration": 2107000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user click on the search button",
+            "line": 7,
+            "name": "user hover the mouse on shop option and auto option display",
             "match": {
-              "location": "com.March2021.StepDefinatation.ResultPageStepDefinatation.IceCcreamProductSteps.user_click_on_the_search_button()"
+              "location": "com.March2021.StepDefinatation.ArgosShopButtonSteps.user_hover_the_mouse_on_shop_option_and_auto_option_display()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 279000000,
+              "duration": 24000000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "user should able to see all ice-cream products",
+            "line": 8,
+            "name": "user click to the Toys option",
             "match": {
-              "location": "com.March2021.StepDefinatation.ResultPageStepDefinatation.IceCcreamProductSteps.user_should_able_to_see_all_ice_cream_products()"
+              "location": "com.March2021.StepDefinatation.ArgosShopButtonSteps.user_click_to_the_toys_option()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@result"
+            "name": "@argosShop"
           }
         ]
       }
     ],
-    "name": "result page functionality",
+    "name": "argos home page functionality",
     "description": "",
-    "id": "result-page-functionality",
+    "id": "argos-home-page-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/Resources/ResultPage.feature",
+    "uri": "file:src/test/Resources/ArgosHomePage.feature",
     "tags": []
   }
 ]

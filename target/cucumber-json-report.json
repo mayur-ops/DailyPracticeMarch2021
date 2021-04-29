@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-15T00:09:29.388Z",
+        "start_timestamp": "2021-04-15T02:59:50.130Z",
         "before": [
           {
             "result": {
-              "duration": 3284000000,
+              "duration": 2998000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "argos home page functionality",
+        "line": 12,
+        "name": "dropdown functionality",
         "description": "",
-        "id": "argos-home-page-functionality;argos-home-page-functionality",
+        "id": "argos-home-page-functionality;dropdown-functionality",
         "after": [
           {
             "result": {
-              "duration": 134000000,
+              "duration": 175000000,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 26000000,
+              "duration": 62000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 14,
             "name": "user is on argos home page",
             "match": {
               "location": "com.March2021.StepDefinatation.ArgosShopButtonSteps.user_is_on_argos_home_page()"
@@ -47,32 +47,68 @@
           },
           {
             "result": {
-              "duration": 2107000000,
+              "duration": 211000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user hover the mouse on shop option and auto option display",
+            "line": 15,
+            "name": "user type in search box puma product",
             "match": {
-              "location": "com.March2021.StepDefinatation.ArgosShopButtonSteps.user_hover_the_mouse_on_shop_option_and_auto_option_display()"
+              "location": "com.March2021.StepDefinatation.ArgosDropDownSteps.user_type_in_search_box_puma_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2163000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter on the search button",
+            "match": {
+              "location": "com.March2021.StepDefinatation.ArgosDropDownSteps.user_enter_on_the_search_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 24000000,
+              "duration": 493000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user click to the Toys option",
+            "line": 17,
+            "name": "user click on the drop down button",
             "match": {
-              "location": "com.March2021.StepDefinatation.ArgosShopButtonSteps.user_click_to_the_toys_option()"
+              "location": "com.March2021.StepDefinatation.ArgosDropDownSteps.user_click_on_the_drop_down_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user select the customer rating category",
+            "match": {
+              "location": "com.March2021.StepDefinatation.ArgosDropDownSteps.user_select_the_customer_rating_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 436000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should able to see all customer rating related product",
+            "match": {
+              "location": "com.March2021.StepDefinatation.ArgosDropDownSteps.user_should_able_to_see_all_customer_rating_related_product()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@argosShop"
+            "name": "@ArgosDropDown"
           }
         ]
       }

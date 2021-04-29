@@ -1,6 +1,9 @@
 
-@argosShop
-Scenario: argos home page functionality                            [90m# src/test/Resources/ArgosHomePage.feature:4[0m
+@ArgosDropDown
+Scenario: dropdown functionality                                   [90m# src/test/Resources/ArgosHomePage.feature:12[0m
   [32mGiven [0m[32muser is on argos home page[0m                                 [90m# com.March2021.StepDefinatation.ArgosShopButtonSteps.user_is_on_argos_home_page()[0m
-  [32mWhen [0m[32muser hover the mouse on shop option and auto option display[0m [90m# com.March2021.StepDefinatation.ArgosShopButtonSteps.user_hover_the_mouse_on_shop_option_and_auto_option_display()[0m
-  [32mThen [0m[32muser click to the Toys option[0m                               [90m# com.March2021.StepDefinatation.ArgosShopButtonSteps.user_click_to_the_toys_option()[0m
+  [32mAnd [0m[32muser type in search box puma product[0m                         [90m# com.March2021.StepDefinatation.ArgosDropDownSteps.user_type_in_search_box_puma_product()[0m
+  [32mWhen [0m[32muser enter on the search button[0m                             [90m# com.March2021.StepDefinatation.ArgosDropDownSteps.user_enter_on_the_search_button()[0m
+  [32mAnd [0m[32muser click on the drop down button[0m                           [90m# com.March2021.StepDefinatation.ArgosDropDownSteps.user_click_on_the_drop_down_button()[0m
+  [32mAnd [0m[32muser select the customer rating category[0m                     [90m# com.March2021.StepDefinatation.ArgosDropDownSteps.user_select_the_customer_rating_category()[0m
+  [32mThen [0m[32muser should able to see all customer rating related product[0m [90m# com.March2021.StepDefinatation.ArgosDropDownSteps.user_should_able_to_see_all_customer_rating_related_product()[0m

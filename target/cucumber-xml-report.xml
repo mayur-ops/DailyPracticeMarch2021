@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.797">
-<testcase classname="argos home page functionality" name="argos home page functionality" time="5.642">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.902">
+<testcase classname="argos home page functionality" name="dropdown functionality" time="6.743">
 <system-out><![CDATA[Given user is on argos home page............................................passed
-When user hover the mouse on shop option and auto option display............passed
-Then user click to the Toys option..........................................passed
+And user type in search box puma product....................................passed
+When user enter on the search button........................................passed
+And user click on the drop down button......................................passed
+And user select the customer rating category................................passed
+Then user should able to see all customer rating related product............passed
 ]]></system-out>
 </testcase>
 </testsuite>

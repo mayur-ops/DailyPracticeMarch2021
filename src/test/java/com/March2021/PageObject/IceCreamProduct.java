@@ -2,6 +2,7 @@ package com.March2021.PageObject;
 
 import com.March2021.BaseClass.DriverFactory;
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -20,11 +21,10 @@ public class IceCreamProduct extends DriverFactory {
 
     public void iceCreamSearch(){
         searchBox.sendKeys("ice cream");
+        searchBox.sendKeys(Keys.ENTER);
     }
 
-    public void clickOnSearch(){
-        searchButton.click();
-    }
+
 
     public void iceCreamAssertion(){
     String actualPageTitle = iceCreamProductTitle.getText();

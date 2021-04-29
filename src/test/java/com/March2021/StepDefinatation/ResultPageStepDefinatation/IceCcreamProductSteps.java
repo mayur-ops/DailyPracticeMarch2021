@@ -15,7 +15,7 @@ public class IceCcreamProductSteps {
     }
     @When("user click on the search button")
     public void user_click_on_the_search_button() {
-    iceCreamProduct.clickOnSearch();
+    iceCreamProduct.iceCreamSearch();
     }
     @Then("user should able to see all ice-cream products")
     public void user_should_able_to_see_all_ice_cream_products() {
